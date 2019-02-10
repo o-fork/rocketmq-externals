@@ -6,7 +6,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.4.3.RELEASE</version>
+        <version>1.4.7.RELEASE</version>
     </parent>
     <groupId>org.apache</groupId>
     <artifactId>rocketmq-console-ng</artifactId>
@@ -21,9 +21,9 @@
         <commons-lang.version>2.6</commons-lang.version>
         <commons-io.version>2.4</commons-io.version>
         <commons-cli.version>1.2</commons-cli.version>
-        <rocketmq.version>4.4.0-SNAPSHOT</rocketmq.version>
+        <rocketmq.version>4.4.0</rocketmq.version>
         <surefire.version>2.19.1</surefire.version>
-        <aspectj.version>1.6.11</aspectj.version>
+        <aspectj.version>1.9.2</aspectj.version>
         <main.basedir>${basedir}/../..</main.basedir>
         <docker.image.prefix>styletang</docker.image.prefix>
     </properties>
